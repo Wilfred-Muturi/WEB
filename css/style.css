@@ -107,3 +107,18 @@ p{
     text-decoration: none;
     text-transform: uppercase;
 }
+/* Table Design */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px #373737 solid;
+    border-spacing: 0;
+}
+table th, table td{
+    border: 1px #373737 solid;
+    padding: 8px;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: #dbdbdb;
+}
