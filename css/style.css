@@ -1,6 +1,9 @@
 body{
             background-color:rgb(249, 253, 253);
             margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.8;
+            font-size: 16px;
         }
         *{
             box-sizing:border-box;
@@ -81,4 +84,26 @@ p{
 }
 .underline{
     text-decoration: underline;
+}
+
+.team_img{
+    overflow: hidden;
+    text-align: center;
+}
+.team_img img{
+    width: 180px;
+    height: 240px;
+    padding: 5px;
+    border-radius: 20%;
+    /* object-fit: cover; */
+}
+.team_member{
+    text-align: center;
+    font-size: small;
+    color: #880f0f;
+    font-style: italic;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
 }
