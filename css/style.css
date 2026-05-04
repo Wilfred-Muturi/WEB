@@ -1,5 +1,9 @@
 body{
-            background-color:rgb(249, 253, 253)
+            background-color:rgb(249, 253, 253);
+            margin: 0;
+        }
+        *{
+            box-sizing:border-box;
         }
         
         .toplink{
@@ -29,6 +33,24 @@ body{
     display: flex;
     content: "";
     clear: both;
+}
+.left_side_bar{
+    float: left;
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.content{
+    float: left;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.right_side_bar{
+    float: left;
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 
