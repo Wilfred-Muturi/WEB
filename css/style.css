@@ -38,14 +38,9 @@ body{
     content: "";
     clear: both;
 }
-.left_side_bar{
-    float: left;
-    width: 15%;
-    background-color: #ebebeb;
-    padding: 20px;
-}
+
 .content{
-    float: left;
+    float: center;
     width: 70%;
     background-color: #ebebeb;
     padding: 20px;
@@ -53,12 +48,7 @@ body{
     border-left:#5f5e5e 1px dashed;
     border-right:#5f5e5e 1px dashed;
 }
-.right_side_bar{
-    float: left;
-    width: 15%;
-    background-color: #ebebeb;
-    padding: 20px;
-}
+
 
 .footer{
     background-color: rgb(51, 51, 50);
