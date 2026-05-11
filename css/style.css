@@ -30,23 +30,22 @@ body{
         .banner{
     background-color: #5f5e5e;
     color: #ffffff;
-    padding: 20px;
+    padding: 2px;
     text-align: center;
 }
+
 .row:after{
     display: flex;
-    content: "";
-    clear: both;
+    
 }
 
 .content{
-    float: center;
-    width: 70%;
+   
+    width: 100%;
     background-color: #ebebeb;
     padding: 20px;
     text-align: left;
-    border-left:#5f5e5e 1px dashed;
-    border-right:#5f5e5e 1px dashed;
+   
 }
 
 
@@ -63,6 +62,7 @@ body{
 
 h1{
     text-transform: uppercase;
+    
 }
 h2{
     text-decoration: none;
@@ -122,4 +122,69 @@ tr:nth-child(even){
 }
 tbody tr:hover{
     background-color: #b3e7ff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* INPUTS */
+form input{
+    width: 40%;
+    padding: 15px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    background-color: #f9f9f9;
+}
+
+/* INPUT FOCUS */
+form input:focus{
+    outline: none;
+    border-color: #5f5e5e;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px rgba(95,94,94,0.2);
+}
+
+/* MESSAGE INPUT */
+form input:last-of-type{
+    height: 120px;
+}
+
+/* BUTTON */
+button{
+    width: 220px;
+    padding: 15px;
+    border: none;
+    background-color: #5f5e5e;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+button:hover{
+    background-color: #284130;
+    
+}
+dd{
+    margin-left: 0;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* LINKS */
+dd a{
+    color: #5f5e5e;
+    text-decoration: none;
+}
+
+dd a:hover{
+    text-decoration: underline;
 }
