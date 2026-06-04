@@ -4,57 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"> 
 </head>
-
 <body>
-    <div class="toplink">
-    <a href="./">Home</a>
-    <a href="about.html"> About</a> 
-    <a href="projects.html"> Projects </a> 
-    <a href="hobbies.html">Hobbies</a>
-    <a href="products.html">Products</a>
-    <a href="faqs.html"> FAQ's</a> 
+    <div class="toplink">    
+        <a href="./">Home</a>
+        <a href="about.html">About</a> 
+        <a href="projects.html">Projects</a>
+        <a href="products.html">Products</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+        
+        <div class="toplink-right">
+            <a href="signup.html">Sign Up</a>
+            <a href="signin.html">Sign In</a>
+        </div>
     </div>
 
     <div class="banner">
-        <h1>CONTACT US</h1>
+        <h1>Talk to us</h1>
     </div>
 
     <div class="row">
-        
         <div class="content">
-    
-    <p>
-        Feel free to reach out if you have any inquiries or you would like to connect with us. I am always welcome to feedback.
-    </p>
+    <h1>Contact Us</h1>
+
     <form action="">
-        <input type="text" name="" placeholder="Enter your full name"
-        required></input>
-        <br>
-        <input type="email" name="" placeholder="Enter your email address"
-        required></input></br>
-        <input type="tel" maxlength="13" name="" placeholder="Enter your phone number"
-        required><br>
-        <input type="text" name="" placeholder="Enter your subject line"
-        required><br>
-        <input type="text" name="" placeholder="Enter your message"
-        required><br>
-        
+    <form action="" method="post" id="contactForm" name="contactForm" class="contactForm">
+
+        <label for="fullname">Name:</label><br>
+        <input type="text" id="fullname" name="fullname" maxlength="60" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" maxlength="60" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" maxlength="13" ><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <select id="subject" name="subject" required>
+            <option value="general">General Inquiry</option>
+            <option value="eLearning support">eLearning Support</option>
+            <option value="AMS support">AMS Support</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+        </select><br><br>   
 
 
-        <button type="submit">Send message</button>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" maxlength="500" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
     </form>
-    <dl>
-        <dt>Email</dt>
-    <dd><a href= "mailto:bbitc@example.com"> maina.wilfred@strathmore.edu</a></dd>
-    <dt>Phone</dt>
-    <dd><a href="tel:+1234567890"> 0700803323</a></dd>
-    <dt>Address</dt>
-    <dd>123 Madaraka, Nairobi</dd>
-    </dl>
-    </div>
-       
+
+        </div>
+        <div class="right_side_bar">
+            <h2>Our branch offices</h2>
+                <h3>Our Nairobi Office</h3>
+                    <p>Email: <a href="mailto:bbit@example.com">bbit@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    <p>Address: 123 Nairobi, Kenya</p>
+                <h3>Our Mombasa Office</h3>
+                    <p>Email: <a href="mailto:bbit@example.com">bbit@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    <p>Address: 123 Mombasa, Kenya</p>
+                <h3>Our Kisumu Office</h3>
+                    <p>Email: <a href="mailto:bbit@example.com">bbit@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    <p>Address: 123 Kisumu, Kenya</p>
+                <h3>Our Eldoret Office</h3>
+                    <p>Email: <a href="mailto:bbit@example.com">bbit@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    <p>Address: 123 Eldoret, Kenya</p>
+                <h3>Our Malindi Office</h3>
+                    <p>Email: <a href="mailto:bbit@example.com">bbit@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    <p>Address: 123 Malindi, Kenya</p>
+        </div>
     </div>
 
     <div class="footer">
